@@ -48,6 +48,8 @@ for i in range(0, lotto_excel_len, 1):
 for i in range(1, 46, 1):
     weights_list[i-1] = lotto_table[i]
 
+weights_list = [x+1 for x in weights_list] #0값 방지
+
 #중복 없이 6개 연달아 뽑기
 for j in range(0, pick_times, 1):
     for i in range(0, 6, 1):
