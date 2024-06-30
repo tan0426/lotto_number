@@ -7,6 +7,7 @@ file_name = 'lotto_excel.xlsx'
 lotto_excel = pd.read_excel(file_name, engine='openpyxl')
 lotto_excel_list = lotto_excel.values.tolist()
 lotto_excel_len = len(lotto_excel)
+lotto_excel_len = 50
 
 num_list = []
 times_list = []
@@ -47,6 +48,10 @@ for i in range(0, lotto_excel_len, 1):
 #뽑힌 횟수에 따라 가중치 입력
 for i in range(1, 46, 1):
     weights_list[i-1] = lotto_table[i]
+
+#가중치 반대로
+for i in range(0, 45, 1):
+    weights_list[i] = 45 - weights_list[i]
 
 weights_list = [x+1 for x in weights_list] #0값 방지
 
