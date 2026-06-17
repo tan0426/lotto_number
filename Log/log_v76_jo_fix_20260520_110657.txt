@@ -1,0 +1,3 @@
+--- 분석 설정: Hybrid V76 (Jo Digit Fix 1-5) / BEAM=100 ---
+Target Count: 10 Games
+Strategy: Tail Fixed [V41]. 'Jo' digit 1-5. 4th [1000s] Auto-Scaled.

@@ -1,0 +1,4 @@
+엑셀 파일을 성공적으로 불러왔습니다.
+--- 분석 설정: Hybrid V75 (Auto-Scaling Allocator) / BEAM=100 ---
+Target Count: 10 Games
+Strategy: Tail Fixed [V41]. 4th [1000s] Auto-Scaled Split (50%:30%:20%).
